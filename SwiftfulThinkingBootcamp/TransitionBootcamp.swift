@@ -25,11 +25,11 @@ struct TransitionBootcamp: View {
             .frame(height: UIScreen.main.bounds.height * 0.5)
             .transition(AnyTransition.asymmetric(
               insertion: .move(edge: .bottom),
-              removal: .slide
+              removal: .move(edge: .bottom)
             ))
         }
       }
-      .animation(.easeIn, value: showDetails)
+      .animation(.spring(response: 0.2, dampingFraction: 2), value: showDetails)
     }
     .ignoresSafeArea(edges: .bottom)
   }
