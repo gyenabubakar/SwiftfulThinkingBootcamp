@@ -14,6 +14,7 @@
 		9334DCA82A2D318A000FE92B /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334DCA72A2D318A000FE92B /* TransitionBootcamp.swift */; };
 		9348970D2A32FDE2002002BC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9348970C2A32FDE2002002BC /* README.md */; };
 		9348970F2A3329EF002002BC /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348970E2A3329EF002002BC /* ActionSheetBootcamp.swift */; };
+		934897112A33304B002002BC /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934897102A33304B002002BC /* ContextMenuBootcamp.swift */; };
 		934E96212A21094500D54FCF /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E96202A21094500D54FCF /* GridBootcamp.swift */; };
 		934E96232A211FDD00D54FCF /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E96222A211FDD00D54FCF /* SafeAreaBootcamp.swift */; };
 		938BFA322A2E861C00C2C120 /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BFA312A2E861C00C2C120 /* SheetsBootcamp.swift */; };
@@ -45,6 +46,7 @@
 		9334DCA72A2D318A000FE92B /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
 		9348970C2A32FDE2002002BC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9348970E2A3329EF002002BC /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
+		934897102A33304B002002BC /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
 		934E96202A21094500D54FCF /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
 		934E96222A211FDD00D54FCF /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
 		938BFA312A2E861C00C2C120 /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				93E5EB0B2A311FCF008F534F /* ListBootcamp.swift */,
 				93E5EB0D2A32388F008F534F /* AlertsBootcamp.swift */,
 				9348970E2A3329EF002002BC /* ActionSheetBootcamp.swift */,
+				934897102A33304B002002BC /* ContextMenuBootcamp.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				9334DCA22A288A32000FE92B /* BindingBootcamp.swift in Sources */,
 				93A64A652A1D0EEB00CF0312 /* BackgroundAndOverlaysBootcamp.swift in Sources */,
 				9334DCA42A2898A4000FE92B /* AnimationBootcamp.swift in Sources */,
+				934897112A33304B002002BC /* ContextMenuBootcamp.swift in Sources */,
 				93E5EB0E2A32388F008F534F /* AlertsBootcamp.swift in Sources */,
 				93A64A592A1AC28300CF0312 /* TextBootcamp.swift in Sources */,
 				93A64A4B2A1ABBA200CF0312 /* SwiftfulThinkingBootcampApp.swift in Sources */,
