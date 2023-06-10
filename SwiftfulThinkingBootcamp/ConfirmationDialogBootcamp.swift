@@ -1,5 +1,5 @@
 //
-//  ActionSheetBootcamp.swift
+//  ConfirmationDialogBootcamp.swift
 //  SwiftfulThinkingBootcamp
 //
 //  Created by Gyen Abubakar on 09/06/2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ActionSheetBootcamp: View {
+struct ConfirmationDialogBootcamp: View {
   @State var showConfirmationDialog = false
 
   var body: some View {
@@ -56,6 +56,6 @@ struct ActionSheetBootcamp: View {
 
 struct ActionSheetBootcamp_Previews: PreviewProvider {
   static var previews: some View {
-    ActionSheetBootcamp()
+    ConfirmationDialogBootcamp()
   }
 }
