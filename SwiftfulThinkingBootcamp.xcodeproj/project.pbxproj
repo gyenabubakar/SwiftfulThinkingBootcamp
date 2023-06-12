@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		931032A52A36F03200230F24 /* TabViewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931032A42A36F03200230F24 /* TabViewsBootcamp.swift */; };
+		931032A72A36FB7000230F24 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931032A62A36FB7000230F24 /* DarkModeBootcamp.swift */; };
 		931D08542A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D08532A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift */; };
 		9334DCA22A288A32000FE92B /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334DCA12A288A32000FE92B /* BindingBootcamp.swift */; };
 		9334DCA42A2898A4000FE92B /* AnimationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334DCA32A2898A4000FE92B /* AnimationBootcamp.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		931032A42A36F03200230F24 /* TabViewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewsBootcamp.swift; sourceTree = "<group>"; };
+		931032A62A36FB7000230F24 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
 		931D08532A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackVStackZStackBootcamp.swift; sourceTree = "<group>"; };
 		9334DCA12A288A32000FE92B /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		9334DCA32A2898A4000FE92B /* AnimationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootcamp.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				934897102A33304B002002BC /* ContextMenuBootcamp.swift */,
 				934897122A345585002002BC /* PickersBootcamp.swift */,
 				931032A42A36F03200230F24 /* TabViewsBootcamp.swift */,
+				931032A62A36FB7000230F24 /* DarkModeBootcamp.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				93D24D8D2A1FD12800A7FBDD /* SpacerBootcamp.swift in Sources */,
 				9334DCA22A288A32000FE92B /* BindingBootcamp.swift in Sources */,
 				93A64A652A1D0EEB00CF0312 /* BackgroundAndOverlaysBootcamp.swift in Sources */,
+				931032A72A36FB7000230F24 /* DarkModeBootcamp.swift in Sources */,
 				9334DCA42A2898A4000FE92B /* AnimationBootcamp.swift in Sources */,
 				934897112A33304B002002BC /* ContextMenuBootcamp.swift in Sources */,
 				93E5EB0E2A32388F008F534F /* AlertsBootcamp.swift in Sources */,
