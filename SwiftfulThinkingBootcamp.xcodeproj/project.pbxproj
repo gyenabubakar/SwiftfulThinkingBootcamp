@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931032A52A36F03200230F24 /* TabViewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931032A42A36F03200230F24 /* TabViewsBootcamp.swift */; };
 		931D08542A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D08532A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift */; };
 		9334DCA22A288A32000FE92B /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334DCA12A288A32000FE92B /* BindingBootcamp.swift */; };
 		9334DCA42A2898A4000FE92B /* AnimationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334DCA32A2898A4000FE92B /* AnimationBootcamp.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931032A42A36F03200230F24 /* TabViewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewsBootcamp.swift; sourceTree = "<group>"; };
 		931D08532A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackVStackZStackBootcamp.swift; sourceTree = "<group>"; };
 		9334DCA12A288A32000FE92B /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		9334DCA32A2898A4000FE92B /* AnimationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootcamp.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				9348970E2A3329EF002002BC /* ConfirmationDialogBootcamp.swift */,
 				934897102A33304B002002BC /* ContextMenuBootcamp.swift */,
 				934897122A345585002002BC /* PickersBootcamp.swift */,
+				931032A42A36F03200230F24 /* TabViewsBootcamp.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				93D24D8B2A1F69DD00A7FBDD /* PaddingBootcamp.swift in Sources */,
 				93A64A5B2A1ACB7600CF0312 /* ShapesBootcamp.swift in Sources */,
 				93A64A5D2A1AD2C700CF0312 /* ColoursBootcamp.swift in Sources */,
+				931032A52A36F03200230F24 /* TabViewsBootcamp.swift in Sources */,
 				93E5EB0C2A311FCF008F534F /* ListBootcamp.swift in Sources */,
 				93A64A4D2A1ABBA200CF0312 /* ContentView.swift in Sources */,
 				9334DCA82A2D318A000FE92B /* TransitionBootcamp.swift in Sources */,
