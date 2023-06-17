@@ -11,8 +11,7 @@ struct ListBootcamp: View {
   @State var fruits = [
     "Apple", "Mango", "Blackberry", "Grape", "Orange",
   ]
-  @State var showPopoverSheet = true
-  @State var newFruit = ""
+  @State var showPopoverSheet = false
 
   var body: some View {
     NavigationView {
@@ -69,11 +68,14 @@ struct AddFruitPopover: View {
   @Binding var fruits: [String]
   @State var newFruit = ""
   
+  var newFruitTrimmed: String {
+    newFruit.trimmingCharacters(in: .whitespaces)
+  }
   var fruitAlreadyExists: Bool {
-    !newFruit.isEmpty && fruits.contains(newFruit)
+    !newFruitTrimmed.isEmpty && fruits.contains(newFruitTrimmed)
   }
   var cantSubmitForm: Bool {
-    fruitAlreadyExists || newFruit.count <= 2
+    fruitAlreadyExists || newFruitTrimmed.count <= 2
   }
   
   var body: some View {
@@ -93,7 +95,7 @@ struct AddFruitPopover: View {
         .padding(.bottom)
       
       if fruitAlreadyExists {
-        Text("\(newFruit) is already in the list. Type another.")
+        Text("\(newFruitTrimmed) is already in the list. Type another.")
           .foregroundColor(.red)
           .frame(maxWidth: .infinity, alignment: .center)
       }
@@ -119,7 +121,7 @@ struct AddFruitPopover: View {
   
   func addFruit() {
     if !cantSubmitForm {
-      fruits.insert(newFruit, at: 0)
+      fruits.insert(newFruitTrimmed, at: 0)
       presentationMode.wrappedValue.dismiss()
     }
   }
