@@ -13,6 +13,7 @@
 		931032AC2A386FFA00230F24 /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931032AB2A386FFA00230F24 /* EnvironmentObjectBootcamp.swift */; };
 		931D08542A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D08532A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift */; };
 		9321E5362A3D9205001D6C2D /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9321E5352A3D9205001D6C2D /* AppStorageBootcamp.swift */; };
+		9321E5382A3DD422001D6C2D /* AsyncImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9321E5372A3DD422001D6C2D /* AsyncImageBootcamp.swift */; };
 		9334DCA22A288A32000FE92B /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334DCA12A288A32000FE92B /* BindingBootcamp.swift */; };
 		9334DCA42A2898A4000FE92B /* AnimationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334DCA32A2898A4000FE92B /* AnimationBootcamp.swift */; };
 		9334DCA62A28D5D0000FE92B /* SpringAnimationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334DCA52A28D5D0000FE92B /* SpringAnimationBootcamp.swift */; };
@@ -51,6 +52,7 @@
 		931032AB2A386FFA00230F24 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		931D08532A1D6E8F00351C8B /* HStackVStackZStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackVStackZStackBootcamp.swift; sourceTree = "<group>"; };
 		9321E5352A3D9205001D6C2D /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
+		9321E5372A3DD422001D6C2D /* AsyncImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBootcamp.swift; sourceTree = "<group>"; };
 		9334DCA12A288A32000FE92B /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		9334DCA32A2898A4000FE92B /* AnimationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootcamp.swift; sourceTree = "<group>"; };
 		9334DCA52A28D5D0000FE92B /* SpringAnimationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimationBootcamp.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				931032A92A372A0E00230F24 /* ObservableObjectBootcamp.swift */,
 				931032AB2A386FFA00230F24 /* EnvironmentObjectBootcamp.swift */,
 				9321E5352A3D9205001D6C2D /* AppStorageBootcamp.swift */,
+				9321E5372A3DD422001D6C2D /* AsyncImageBootcamp.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				93A64A5D2A1AD2C700CF0312 /* ColoursBootcamp.swift in Sources */,
 				931032A52A36F03200230F24 /* TabViewsBootcamp.swift in Sources */,
 				93E5EB0C2A311FCF008F534F /* ListBootcamp.swift in Sources */,
+				9321E5382A3DD422001D6C2D /* AsyncImageBootcamp.swift in Sources */,
 				93A64A4D2A1ABBA200CF0312 /* ContentView.swift in Sources */,
 				9334DCA82A2D318A000FE92B /* TransitionBootcamp.swift in Sources */,
 				934897132A345585002002BC /* PickersBootcamp.swift in Sources */,
